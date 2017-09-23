@@ -19,7 +19,7 @@ Netflix Zuul is the front door for all requests. As an edge service application,
 
 It is generated using spring.io as shown below
 <p align="center">
-  <img src="./docs/gateway-service.png" alt="Spring cloud component interaction diagram">
+  <img src="./docs/gateway-service.png" alt="gateway-service">
 </p>
 
 ## 2- discovery-server :  
@@ -27,7 +27,7 @@ Netflix Eureka Discovery Server is a phone book for the microservices. Each serv
 
 It is generated using spring.io as shown below
 <p align="center">
-  <img src="./docs/discovery-server.png" alt="Spring cloud component interaction diagram">
+  <img src="./docs/discovery-server.png" alt="discovery-server">
 </p>
 
 ## 3- config-server :  
@@ -37,7 +37,7 @@ The configurable property are kept in git repo in the demo project.
 
 It is generated using spring.io as shown below
 <p align="center">
-  <img src="./docs/config-server.png" alt="Spring cloud component interaction diagram">
+  <img src="./docs/config-server.png" alt="config-server">
 </p>
 
 ## 4- hystrix-dashboard :  
@@ -51,9 +51,16 @@ You can put the url of any service on the hystrix instance to generate its live 
 
 It is generated using spring.io as shown below
 <p align="center">
-  <img src="./docs/config-server.png" alt="Spring cloud component interaction diagram">
+  <img src="./docs/hystrix-dashboard.png" alt="hystrix-dashboard">
 </p>
 
+## 5- turbine :
+The Hystrix Dashboard allows to monitor a single server or a cluster of servers aggregated using Turbine, with low latency (typically around 1 or 2 seconds when aggregating a cluster, subsecond with a single server).
+
+It is generated using spring.io as shown below
+<p align="center">
+  <img src="./docs/turbine.png" alt="turbine">
+</p>
 
 
 
